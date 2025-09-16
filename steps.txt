@@ -1,0 +1,13 @@
+created psql in cloud aiven db
+Dbrever for data base to connect to aiven db
+prisma init to conifg the db
+express for running the backend
+
+Prisma to create table 
+mode tablename {
+    id Int @id @default(autoincrement())
+}
+
+after creating table in schema need to migrate
+npx prisma migrate dev --name commit name
+now the table will be created in db
