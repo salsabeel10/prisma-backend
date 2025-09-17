@@ -5,6 +5,7 @@ app.use(express.json())
 
 const port = 3000
 
+app.use('/categories',require('./routes/categoryRoute'))
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
