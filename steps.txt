@@ -11,3 +11,9 @@ mode tablename {
 after creating table in schema need to migrate
 npx prisma migrate dev --name commit name
 now the table will be created in db
+
+created controller for both table
+for crud operation
+
+created Routes for both table 
+for api end points 
